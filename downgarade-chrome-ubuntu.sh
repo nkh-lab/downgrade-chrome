@@ -20,7 +20,7 @@ if [ "$EUID" -ne 0 ]
     exit
 fi
 
-if [ -z $CHROME_VERSION]
+if [ -z $CHROME_VERSION ]
     then
         echo "Please specify version, for example:"
         echo "sudo ./downgarade-chrome-ubuntu.sh 117.0.5938.132-1"
